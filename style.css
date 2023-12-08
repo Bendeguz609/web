@@ -5,10 +5,3 @@ nav{
     color: green;
     font-size: 150;
 }
-footer, div{
-    width: 100%;
-    background-color: burlywood;
-    color: black;
-    height: 40px;
-    text-align: center;
-}
