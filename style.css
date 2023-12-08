@@ -5,3 +5,12 @@ nav{
     color: green;
     font-size: 150;
 }
+#Copyright{
+    width: 100%;
+    height: 40px;
+    color: black;
+    background-color: burlywood;
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 0;
+}
