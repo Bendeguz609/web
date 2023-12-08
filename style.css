@@ -5,3 +5,8 @@ nav{
     color: green;
     font-size: 150;
 }
+footer{
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+}
