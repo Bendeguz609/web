@@ -2,8 +2,9 @@ body{
     background-color: bisque;
 }
 nav{
-    color: green;
+    color: gold;
     font-size: 150;
+    font-family: 'Courier New', Courier, monospace;
 }
 #Copyright{
     width: 100%;
