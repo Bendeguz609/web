@@ -5,7 +5,11 @@ nav{
     color: green;
     font-size: 150;
 }
-footer{
+footer#footer{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
     max-width: 100%;
     text-align: center;
     background-color: burlywood;
