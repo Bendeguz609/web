@@ -25,6 +25,5 @@ body{
     padding: 10px;
     margin: 10px;
     background-color: bisque;
-    align-self: center;
-    display: contents;
+    text-align: center;
 }
