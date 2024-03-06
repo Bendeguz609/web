@@ -1,12 +1,17 @@
 body{
     background-color: bisque;
 }
-nav{
-    font-family: 'Courier New', Courier, monospace;
-}
 #Copyright{
     width: 100%;
     background-color: burlywood;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+}
+#nav{
+    height: 10px;
+    color: green;
+    background-color: bisque;
+    width: 100%;
+    vertical-align: middle;
+    font-family: 'Courier New', Courier, monospace;
 }
