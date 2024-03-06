@@ -8,10 +8,12 @@ body{
     text-align: center;
 }
 #nav{
-    height: 10px;
+    height: 20px;
     color: green;
     background-color: bisque;
     width: 100%;
     vertical-align: middle;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin: 10px;
 }
