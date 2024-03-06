@@ -4,6 +4,9 @@ body{
 nav{
     font-family: 'Courier New', Courier, monospace;
 }
-footer{
-    vertical-align: bottom;
+#Copyright{
+    width: 100%;
+    background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
