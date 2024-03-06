@@ -4,3 +4,6 @@ body{
 nav{
     font-family: 'Courier New', Courier, monospace;
 }
+footer{
+    vertical-align: bottom;
+}
