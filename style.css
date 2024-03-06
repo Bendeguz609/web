@@ -1,7 +1,7 @@
 body{
     background-color: bisque;
 }
-#Copyright{
+.Copyright{
     width: 100%;
     background-color: burlywood;
     font-family: 'Times New Roman', Times, serif;
