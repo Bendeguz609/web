@@ -8,6 +8,7 @@ body{
     text-align: center;
     color: black;
     margin-top: 10px;
+    border-radius: 10px;
 }
 .NAV{
     height: 20px;
