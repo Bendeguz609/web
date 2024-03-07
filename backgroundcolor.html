@@ -27,10 +27,11 @@
     </div>
 
     <div class="ColorButton" style="margin: auto;">
-        <h1>Háttér És Szöveg Szin Választó</h1>
+        <h1>Háttér és szöveg szin választó</h1>
         <input style="height: 100px; width: 100px;" type="color" name="szin" onchange="color()" id="szin">
         <br>
-        <input name="text" onchange="Neved()">
+        <h2>Mi a neved?</h2>
+        <input id="User" name="text" onchange="Neved()">
         <br>
         <h2 name="Nev"></h2>
         <h2>Reszler Béla Bendegúz</h2>
@@ -48,7 +49,7 @@ function color() {
     document.body.style.color = szin.value
 }
 function Neved() {
-    
+    document.getElementById("User").text = "Hello "+Neved.value
 }
     </script>
 </body>
