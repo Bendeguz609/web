@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Háttér És Szöveg Szin Választó</title>
+    <title>Szinválastó JavaScript/title>
     <link rel="stylesheet" href="style.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -22,27 +22,18 @@
             <a href="orarend.html" style="color:green">Órarend Feladat</a> |
             <a href="picture.html" style="color: green">Képlink Feladat</a> |
             <a href="lista.html" style="color:green">Listák</a> |
-            <a href="backgroundcolor.html" style="color: green;">Háttér + Szöveg Szin</a>
+            <a href="backgroundcolor.html" style="color: green;">Szinválastó JavaScript</a>
         </nav>
     </div>
 
     <div class="ColorButton" style="margin: auto;">
         <h1>Háttér És Szöveg Szin Választó</h1>
-        <input style="height: 50px; width: 50px;" type="color" name="szin" onchange="color()" id="szin">
+        <input style="height: 100px; width: 100px;" type="color" name="szin" onchange="color()" id="szin">
+        <br>
+        <input name="text" onchange="Neved()">
+        <br>
+        <h2 name="Nev"></h2>
         <h2>Reszler Béla Bendegúz</h2>
-        <p>Fusce ornare rutrum ornare. Etiam fermentum neque et dui dapibus, at porttitor sem dictum. Vivamus sit amet
-            pharetra lectus, quis commodo lorem. Nam lacinia massa ut ultricies tristique. Vivamus laoreet molestie
-            consequat. Morbi eleifend est sed nisl venenatis, ullamcorper malesuada massa feugiat. Integer sit amet pretium
-            eros, sed ultricies libero.
-        </p>
-        <p>Aliquam iaculis sem id arcu vulputate, eu consectetur est consequat. Quisque dapibus dolor at scelerisque
-            porttitor. Nam ut nulla ligula. Curabitur gravida condimentum purus quis auctor. Ut placerat mi quis turpis
-            consequat, eget euismod nisi sagittis. Donec sed mattis leo. Integer nec felis nisl. Nulla posuere faucibus
-            cursus. Aliquam eget nibh eget nulla porttitor lacinia eget a nibh. Cras facilisis mattis magna nec rhoncus.
-            Nullam molestie arcu nec dolor tristique, eu convallis ipsum facilisis. Pellentesque eget volutpat nisl. Cras
-            eleifend mi ipsum, sit amet luctus odio mattis pharetra. Nullam eget diam sodales, dapibus metus non, dictum
-            erat. Vivamus in tellus nulla.
-        </p>
     </div>
 
     <footer>
@@ -52,10 +43,12 @@
         </div>
     </footer>
     <script>
-
 function color() {
     document.body.style.backgroundColor = szin.value
     document.body.style.color = szin.value
+}
+function Neved() {
+    
 }
     </script>
 </body>
