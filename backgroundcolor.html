@@ -33,7 +33,8 @@
         <h2>Mi a neved?</h2>
         <input id="Neved" "type="text" onchange="Neved()">
         <br>
-        <h2 id="User"></h2>
+        <p id="User"></p>
+        <br>
         <h2>Reszler Béla Bendegúz</h2>
     </div>
 
@@ -49,7 +50,7 @@ function color() {
     document.body.style.color = szin.value
 }
 function Neved() {
-    document.getElementById("User").text = "Hello "+Neved.value
+    document.getElementById("User").innerHTML = "Hello "+Neved.value
 }
     </script>
 </body>
