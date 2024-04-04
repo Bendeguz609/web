@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
+</head>
+<body>
+    <h1 style="text-align: center;">Csere program</h1>
+    <div style=" border-radius: 25px; background-color: burlywood; margin: auto; padding: 50px;">
+    <img style=" margin: auto; height: 450px; display: block;" src="Dog.webp" alt="" id="dog" onclick="Cat()">
+    <img style=" margin: auto; display: none;" src="Cicus.jpg" alt="" id="cat" onclick="Dog()">
+    
+    </div>
+<script>
+function Cat() {
+    document.getElementById("dog").style.display = "None"
+    document.getElementById("cat").style.display = "block"
+}
+function Dog() {
+    document.getElementById("dog").style.display = "block"
+    document.getElementById("cat").style.display = "None"
+}
+</script>
+</body>
+</html>
